@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain')
   res.write('This is Module 4: 01 Create a Node server / service\n')
   res.write('This script is given by Prof.Case\n')
-  res.end('I just deploy it on heroku.\n')
+  res.end('I just deploy it on heroku,it takes about 1 hour. Chen finished it at 2:30PM.\n')
 })
 
 // start listening
